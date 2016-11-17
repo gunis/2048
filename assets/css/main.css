@@ -1,0 +1,47 @@
+/* Custom CSS */
+
+#playground {
+	padding:20px;
+}
+
+.row {
+	padding-left:25%;
+	padding-right:25%;
+}
+
+.row .cell {
+	background-color: #f6f6f6;
+	border: 1px dashed #3c763d;
+	float: left !important;
+	padding: 0px !important;
+	width: 25% !important;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+
+.row .cell div {
+	box-sizing: unset !important;
+	height: 20px;
+	padding-bottom:calc(50% - 10px);
+	padding-top:calc(50% - 10px);
+	position:relative;
+	text-align: center;
+}
+
+.row .cell div .number {
+	border: 1px solid #3c763d;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	box-shadow: 0px 0px 10px #cacaca;
+	-moz-box-shadow: 0px 0px 10px #cacaca;
+	-webkit-box-shadow: 0px 0px 10px #cacaca;
+	left: -1px;
+	margin: 10%;
+	padding-bottom: calc(40% - 10px);
+	padding-top: calc(40% - 10px);
+	position: absolute;
+	top: -1px;
+	width: 80%;
+	z-index:1000;
+}
