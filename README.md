@@ -4,7 +4,7 @@ A web version of the classic [2048](https://en.wikipedia.org/wiki/2048_(video_ga
 
 ## Play
 
-Open `index.html` in a browser, or serve the folder locally:
+You can play the game [here](http://2048.gunis.sk) or serve the folder locally by opening `index.html` in your browser.
 
 ## Controls
 
